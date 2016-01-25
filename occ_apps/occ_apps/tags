@@ -1,0 +1,172 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALARM_CLEAN	inc/data_resource.h	50;"	d
+B115200	inc/SerDrive.h	16;"	d
+B2400	inc/SerDrive.h	13;"	d
+B460800	inc/SerDrive.h	17;"	d
+B4800	inc/SerDrive.h	14;"	d
+B9600	inc/SerDrive.h	15;"	d
+BATCH_BUILD_PORT	inc/data_resource.h	65;"	d
+BATCH_DIV_PORT	inc/data_resource.h	67;"	d
+BUILD_TWO_PORT	inc/data_resource.h	63;"	d
+CC	Makefile	/^CC	=\/usr\/local\/arm\/4.3.2\/bin\/arm-linux-gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS	 = -g -O2$/;"	m
+CHANGE_ORDER	inc/data_resource.h	61;"	d
+CHANGE_TRAY	inc/data_resource.h	75;"	d
+CLEAN_CHANGE_LINE	inc/data_resource.h	60;"	d
+CLEAN_ORDER	inc/data_resource.h	59;"	d
+CMD_ANALYSIS_H	inc/cmd_analysis.h	2;"	d
+COME_RS485	inc/data_resource.h	81;"	d
+COME_UART0	inc/data_resource.h	82;"	d
+COMPILE.c	Makefile	/^COMPILE.c	= $(CC) $(EXTRA_CFLAGS) $(CFLAGS) $(CPPFLAGS) -c	-lpthread$/;"	m
+COMPILE.cxx	Makefile	/^COMPILE.cxx = $(CXX) $(EXTRA_CFLAGS) $(CXXFLAGS) $(CPPFLAGS) -c	-lpthread$/;"	m
+CONTROL_WRITE_ELECTORN_LABLE	inc/data_resource.h	73;"	d
+CPPFLAGS	Makefile	/^CPPFLAGS = -Wall $(INCLUDE)$/;"	m
+CRC8_H	inc/crc8.h	2;"	d
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CTAGSFLAGS	Makefile	/^CTAGSFLAGS = $/;"	m
+CXX	Makefile	/^CXX	=\/usr\/local\/arm\/4.3.2\/bin\/arm-linux-g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -g -O2 $/;"	m
+DATA_BIT_7	inc/SerDrive.h	28;"	d
+DATA_BIT_8	inc/SerDrive.h	29;"	d
+DATA_ERROR	inc/data_resource.h	77;"	d
+DATA_OK	inc/data_resource.h	78;"	d
+DEL_ONE_PORT	inc/data_resource.h	62;"	d
+DEL_TWO_PORT	inc/data_resource.h	64;"	d
+DEPEND.d	Makefile	/^DEPEND.d	= $(CC) $(DEP_OPT) $(EXTRA_CFLAGS) $(CFLAGS) $(CPPFLAGS) -lpthread$/;"	m
+DEPS	Makefile	/^DEPS	= $(foreach f,$(OBJS),$(addprefix $(dir $(f))., $(patsubst %.o, %.d, $(notdir $(f)))))$/;"	m
+DEP_OPT	Makefile	/^DEP_OPT	= $(shell if `$(CC) --version | grep -i "GCC" >\/dev\/null`;then \\$/;"	m
+DEV_INFO	inc/data_resource.h	/^}DEV_INFO;$/;"	t	typeref:struct:_dev_info
+DIV_ONE_PORT	inc/data_resource.h	66;"	d
+ETAGS	Makefile	/^ETAGS = etags $/;"	m
+ETAGSFLAGS	Makefile	/^ETAGSFLAGS =$/;"	m
+EXTRA_CFLAGS	Makefile	/^EXTRA_CFLAGS =$/;"	m
+EXTRA_LDFLAGS	Makefile	/^EXTRA_LDFLAGS =$/;"	m
+HDREXTS	Makefile	/^HDREXTS	= .h .H .hh .hpp .HPP .h++ .hxx .hp $/;"	m
+HEADERS	Makefile	/^HEADERS = $(foreach d,$(SRCDIRS),$(wildcard $(addprefix $(d)\/*,$(HDREXTS))))$/;"	m
+INCLUDE	Makefile	/^INCLUDE = -I.\/inc $/;"	m
+LDFLAGS	Makefile	/^LDFLAGS =$/;"	m
+LINK.c	Makefile	/^LINK.c		= $(CC) $(EXTRA_CFLAGS) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) -lpthread$/;"	m
+LINK.cxx	Makefile	/^LINK.cxx	= $(CXX) $(EXTRA_CFLAGS) $(CXXFLAGS) $(CPPFLAGS) $(LDFLAGS) -lpthread$/;"	m
+MAX_FRAME	inc/data_resource.h	10;"	d
+MAX_RESOURCE_LEN	inc/data_resource.h	11;"	d
+MAX_UARTX_RX_BUF	inc/data_resource.h	8;"	d
+MAX_UARTX_TX_BUF	inc/data_resource.h	9;"	d
+OBJS	Makefile	/^OBJS    = $(addsuffix .o,$(basename $(SOURCES)))$/;"	m
+OCC_Use_CRC8_Check_Data	crc8.c	/^uint8_t OCC_Use_CRC8_Check_Data(uint8_t *src)$/;"	f
+ORDERS_CMD	inc/data_resource.h	54;"	d
+ORDER_H	inc/order.h	2;"	d
+ORDER_VAL	inc/data_resource.h	/^}ORDER_VAL;$/;"	t	typeref:struct:_order_val
+PARITY_EVEN	inc/SerDrive.h	22;"	d
+PARITY_NONE	inc/SerDrive.h	23;"	d
+PARITY_ODD	inc/SerDrive.h	21;"	d
+POOL_CMD	inc/data_resource.h	79;"	d
+PROGRAM	Makefile	/^PROGRAM	= occ_apps$/;"	m
+QUEUE_H	inc/queue.h	2;"	d
+READ_DEVICE_ALARM	inc/data_resource.h	49;"	d
+READ_DEVICE_CONFIG_INFO	inc/data_resource.h	43;"	d
+READ_DEVICE_FRAME_INFO	inc/data_resource.h	44;"	d
+READ_HW_SW_INFO	inc/data_resource.h	46;"	d
+READ_TRAY_INFO	inc/data_resource.h	45;"	d
+RESORCE_COVER	inc/data_resource.h	57;"	d
+RESORCE_POOL	inc/data_resource.h	56;"	d
+RESORCE_SEARCH	inc/data_resource.h	55;"	d
+RM	Makefile	/^RM = rm -f$/;"	m
+SEND_RESOURCE_MOBILE	inc/data_resource.h	58;"	d
+SOFTWARE_UPDATA	inc/data_resource.h	47;"	d
+SOURCES	Makefile	/^SOURCES = $(foreach d,$(SRCDIRS),$(wildcard $(addprefix $(d)\/*,$(SRCEXTS))))$/;"	m
+SRCDIRS	Makefile	/^	SRCDIRS := $(shell find $(SRCDIRS) -type d)$/;"	m
+SRCDIRS	Makefile	/^SRCDIRS	:=$/;"	m
+SRCEXTS	Makefile	/^SRCEXTS	= .c .C .cc .cpp .CPP .c++ .cxx .cp $/;"	m
+SRC_CXX	Makefile	/^SRC_CXX = $(filter-out %.c,$(SOURCES))$/;"	m
+STOP_BIT_1	inc/SerDrive.h	25;"	d
+STOP_BIT_2	inc/SerDrive.h	26;"	d
+Serial_Init	main.c	/^void Serial_Init(void)$/;"	f
+TEST_LED	inc/data_resource.h	74;"	d
+TTY0_NAME	inc/SerDrive.h	4;"	d
+TTY1_NAME	inc/SerDrive.h	5;"	d
+TTY2_NAME	inc/SerDrive.h	6;"	d
+TTYS0	inc/SerDrive.h	9;"	d
+TTYS1	inc/SerDrive.h	10;"	d
+TTYS2	inc/SerDrive.h	11;"	d
+UARTS_DATA	inc/data_resource.h	/^}UARTS_DATA;$/;"	t	typeref:struct:_uarts_data
+WRITE_DEVICE_CONFIG_INFO	inc/data_resource.h	51;"	d
+WRITE_DEVICE_UUID	inc/data_resource.h	52;"	d
+WRITE_ELECTORN_LABLE	inc/data_resource.h	48;"	d
+_ALARM_ROUTINE_H	inc/alarm_routine.h	2;"	d
+_DATA_RESOURCE_H	inc/data_resource.h	2;"	d
+_KEY_ROUTINE_H	inc/key_routine.h	2;"	d
+_MOBILE_ROUTINE_H	inc/mobile_routine.h	2;"	d
+_POOL_ROUTINE_H	inc/pool_routine.h	2;"	d
+_SERDRIVE_H	inc/SerDrive.h	2;"	d
+_dev_info	inc/data_resource.h	/^typedef struct _dev_info {$/;"	s
+_order_val	inc/data_resource.h	/^typedef struct _order_val{$/;"	s
+_uarts_data	inc/data_resource.h	/^typedef struct _uarts_data {$/;"	s
+act_frame_ing	inc/data_resource.h	/^	uint8_t act_frame_ing;$/;"	m	struct:_order_val
+add_data_to_queue	queue.c	/^void add_data_to_queue(unsigned char *src)$/;"	f
+alarm_buf	queue.c	/^unsigned char alarm_buf[48][14];$/;"	v
+alarm_num	alarm_routine.c	/^unsigned int alarm_num = 0;\/\/告警条数$/;"	v
+alarm_routine	alarm_routine.c	/^void alarm_routine(void)$/;"	f
+board_info	cmd_analysis.c	/^DEV_INFO board_info = {{'\\0'},{'\\0'},0x00,0x00,0x00,0x00};$/;"	v
+check_uart_x_data	mobile_routine.c	/^void check_uart_x_data(uint8_t *src,uint8_t come_from)$/;"	f
+clean_alarm_buf	alarm_routine.c	/^static void clean_alarm_buf(void)$/;"	f	file:
+com0_fd	main.c	/^int com0_fd = -1;$/;"	v
+com1_fd	main.c	/^int com1_fd = -1;$/;"	v
+crc8	crc8.c	/^uint8_t crc8(uint8_t* ptr,uint16_t len)$/;"	f
+current	queue.c	/^unsigned char *current = queue;$/;"	v
+down_data	alarm_routine.c	/^unsigned char down_data[1024] = {'\\0'};$/;"	v
+get_data_from_queue	queue.c	/^unsigned char get_data_from_queue(unsigned char *dst)$/;"	f
+hardware_h	inc/data_resource.h	/^	uint8_t hardware_h;$/;"	m	struct:_dev_info
+hardware_l	inc/data_resource.h	/^	uint8_t hardware_l;$/;"	m	struct:_dev_info
+head	queue.c	/^unsigned char *head = queue;$/;"	v
+init_sigaction	pool_routine.c	/^static void init_sigaction(void)$/;"	f	file:
+init_time	pool_routine.c	/^static void init_time(void)$/;"	f	file:
+key_routine	key_routine.c	/^void key_routine(void)$/;"	f
+main	main.c	/^int main(int argc,char *argv[])$/;"	f
+mobile_routine	mobile_routine.c	/^void mobile_routine(void)$/;"	f
+mutex	pool_routine.c	/^pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+name	inc/data_resource.h	/^	uint8_t name[104];$/;"	m	struct:_dev_info
+not_0x20_send_0xA6to_uart0	pool_routine.c	/^static void not_0x20_send_0xA6to_uart0(uint8_t *src)$/;"	f	file:
+occ_alram_process	queue.c	/^void occ_alram_process(uint8_t *src,uint8_t come_from)$/;"	f
+occ_current_frame_num	inc/data_resource.h	/^	uint8_t occ_current_frame_num;$/;"	m	struct:_order_val
+occ_main_order_data_processing	cmd_analysis.c	/^void occ_main_order_data_processing(uint8_t *src,uint8_t come_from)$/;"	f
+occ_new_build_double_port_order	order.c	/^void occ_new_build_double_port_order(uint8_t *src,uint8_t come_from)$/;"	f
+occ_read_device_info_cmd	cmd_analysis.c	/^static void occ_read_device_info_cmd(void)$/;"	f	file:
+occ_remove_double_port_order	order.c	/^void occ_remove_double_port_order(uint8_t *src,uint8_t come_from)$/;"	f
+occ_resources_collection	order.c	/^static void occ_resources_collection(uint8_t *src,uint8_t come_from)$/;"	f	file:
+occ_send_data_to_sim3u146	order.c	/^void occ_send_data_to_sim3u146(void) \/\/special_send_buf[][]$/;"	f
+occ_write_device_config_info	cmd_analysis.c	/^static void occ_write_device_config_info(uint8_t *src)$/;"	f	file:
+occ_write_device_uuid_info	cmd_analysis.c	/^static void occ_write_device_uuid_info(uint8_t *src)$/;"	f	file:
+order_val	order.c	/^ORDER_VAL order_val;\/\/ = {{'\\0'},{'\\0'},0x00,0x00,0x00,0x00,0x00};$/;"	v
+other_thing_now	pool_routine.c	/^volatile unsigned char other_thing_now = 0;$/;"	v
+pool_info	pool_routine.c	/^static void pool_info(int signo)$/;"	f	file:
+pool_routine	pool_routine.c	/^void pool_routine(void)$/;"	f
+processing_order_cmd	order.c	/^void processing_order_cmd(uint8_t *src,uint8_t come_from)$/;"	f
+queue	queue.c	/^unsigned char queue[1024] = {'\\0'};$/;"	v
+read_datas_tty	SerDrive.c	/^int read_datas_tty(int fd,unsigned char *rcv_buf,int TimeOut,int Len)$/;"	f
+resource_buf	inc/data_resource.h	/^	uint8_t resource_buf[MAX_FRAME][MAX_RESOURCE_LEN];$/;"	m	struct:_order_val
+resource_comper_flag	inc/data_resource.h	/^	uint8_t resource_comper_flag;$/;"	m	struct:_order_val
+resource_send_0xa6_to_uart0	order.c	/^static void resource_send_0xa6_to_uart0(uint8_t *src)$/;"	f	file:
+resource_start	inc/data_resource.h	/^	uint8_t resource_start;$/;"	m	struct:_order_val
+resource_timeout	inc/data_resource.h	/^	uint8_t resource_timeout;$/;"	m	struct:_order_val
+send_0xA6_mobile	inc/data_resource.h	/^	uint8_t send_0xA6_mobile[25];$/;"	m	struct:_order_val
+send_data_tty	SerDrive.c	/^int send_data_tty(int fd,unsigned char *send_buf,int Len)$/;"	f
+send_resource_data_to_mobile	order.c	/^static void send_resource_data_to_mobile(uint8_t *src)$/;"	f	file:
+set_opt	SerDrive.c	/^int set_opt(int fd ,int nSpeed,int nBits ,char nEvent ,int nStop)$/;"	f
+software_h	inc/data_resource.h	/^	uint8_t software_h;$/;"	m	struct:_dev_info
+software_l	inc/data_resource.h	/^	uint8_t software_l;$/;"	m	struct:_dev_info
+special_send_buf	order.c	/^uint8_t special_send_buf[8][600];\/\/专门用来发送数据到sim3u146$/;"	v
+tail	queue.c	/^unsigned char *tail = queue;$/;"	v
+uart0_data	pool_routine.c	/^UARTS_DATA uart0_data;$/;"	v
+uart0_recv_data	pool_routine.c	/^static void uart0_recv_data(void)$/;"	f	file:
+uart485_data	mobile_routine.c	/^UARTS_DATA uart485_data;$/;"	v
+uartx_rxbuf	inc/data_resource.h	/^	uint8_t uartx_rxbuf[MAX_UARTX_RX_BUF];$/;"	m	struct:_uarts_data
+uartx_txbuf	inc/data_resource.h	/^	uint8_t uartx_txbuf[MAX_UARTX_TX_BUF];$/;"	m	struct:_uarts_data
+up_alarm	alarm_routine.c	/^unsigned char up_alarm[2048] = {'\\0'};$/;"	v
+up_load_alarm_to_mobile	alarm_routine.c	/^void up_load_alarm_to_mobile(void)$/;"	f
+uuid	inc/data_resource.h	/^	uint8_t uuid[17];$/;"	m	struct:_dev_info
+work_order_id	inc/data_resource.h	/^	uint8_t work_order_id[76];	$/;"	m	struct:_order_val

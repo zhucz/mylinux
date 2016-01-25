@@ -1,0 +1,61 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+B115200	inc/SerDrive.h	16;"	d
+B2400	inc/SerDrive.h	13;"	d
+B460800	inc/SerDrive.h	17;"	d
+B4800	inc/SerDrive.h	14;"	d
+B9600	inc/SerDrive.h	15;"	d
+CC	Makefile	/^CC	=\/usr\/local\/arm\/4.3.2\/bin\/arm-linux-gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS	 = -g -O2$/;"	m
+COMPILE.c	Makefile	/^COMPILE.c	= $(CC) $(EXTRA_CFLAGS) $(CFLAGS) $(CPPFLAGS) -c$/;"	m
+COMPILE.cxx	Makefile	/^COMPILE.cxx = $(CXX) $(EXTRA_CFLAGS) $(CXXFLAGS) $(CPPFLAGS) -c$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = -Wall $(INCLUDE)$/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CTAGSFLAGS	Makefile	/^CTAGSFLAGS = $/;"	m
+CXX	Makefile	/^CXX	=\/usr\/local\/arm\/4.3.2\/bin\/arm-linux-g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -g -O2 $/;"	m
+DATA_BIT_7	inc/SerDrive.h	28;"	d
+DATA_BIT_8	inc/SerDrive.h	29;"	d
+DEPEND.d	Makefile	/^DEPEND.d	= $(CC) $(DEP_OPT) $(EXTRA_CFLAGS) $(CFLAGS) $(CPPFLAGS)$/;"	m
+DEPS	Makefile	/^DEPS	= $(foreach f,$(OBJS),$(addprefix $(dir $(f))., $(patsubst %.o, %.d, $(notdir $(f)))))$/;"	m
+DEP_OPT	Makefile	/^DEP_OPT	= $(shell if `$(CC) --version | grep -i "GCC" >\/dev\/null`;then \\$/;"	m
+ETAGS	Makefile	/^ETAGS = etags $/;"	m
+ETAGSFLAGS	Makefile	/^ETAGSFLAGS =$/;"	m
+EXTRA_CFLAGS	Makefile	/^EXTRA_CFLAGS =$/;"	m
+EXTRA_LDFLAGS	Makefile	/^EXTRA_LDFLAGS =$/;"	m
+HDREXTS	Makefile	/^HDREXTS	= .h .H .hh .hpp .HPP .h++ .hxx .hp $/;"	m
+HEADERS	Makefile	/^HEADERS = $(foreach d,$(SRCDIRS),$(wildcard $(addprefix $(d)\/*,$(HDREXTS))))$/;"	m
+INCLUDE	Makefile	/^INCLUDE = -I.\/inc $/;"	m
+LDFLAGS	Makefile	/^LDFLAGS =$/;"	m
+LINK.c	Makefile	/^LINK.c		= $(CC) $(EXTRA_CFLAGS) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS)$/;"	m
+LINK.cxx	Makefile	/^LINK.cxx	= $(CXX) $(EXTRA_CFLAGS) $(CXXFLAGS) $(CPPFLAGS) $(LDFLAGS)$/;"	m
+OBJS	Makefile	/^OBJS    = $(addsuffix .o,$(basename $(SOURCES)))$/;"	m
+PARITY_EVEN	inc/SerDrive.h	22;"	d
+PARITY_NONE	inc/SerDrive.h	23;"	d
+PARITY_ODD	inc/SerDrive.h	21;"	d
+PROGRAM	Makefile	/^PROGRAM	= serial$/;"	m
+PorcessInit	main.c	/^void PorcessInit(void)$/;"	f
+RM	Makefile	/^RM = rm -f$/;"	m
+SERDRIVE_H	inc/SerDrive.h	2;"	d
+SOURCES	Makefile	/^SOURCES = $(foreach d,$(SRCDIRS),$(wildcard $(addprefix $(d)\/*,$(SRCEXTS))))$/;"	m
+SRCDIRS	Makefile	/^	SRCDIRS := $(shell find $(SRCDIRS) -type d)$/;"	m
+SRCDIRS	Makefile	/^SRCDIRS	:=$/;"	m
+SRCEXTS	Makefile	/^SRCEXTS	= .c .C .cc .cpp .CPP .c++ .cxx .cp $/;"	m
+SRC_CXX	Makefile	/^SRC_CXX = $(filter-out %.c,$(SOURCES))$/;"	m
+STOP_BIT_1	inc/SerDrive.h	25;"	d
+STOP_BIT_2	inc/SerDrive.h	26;"	d
+SerFd	main.c	/^int SerFd = -1;$/;"	v
+TTY0_NAME	inc/SerDrive.h	4;"	d
+TTY1_NAME	inc/SerDrive.h	5;"	d
+TTY2_NAME	inc/SerDrive.h	6;"	d
+TTYS0	inc/SerDrive.h	9;"	d
+TTYS1	inc/SerDrive.h	10;"	d
+TTYS2	inc/SerDrive.h	11;"	d
+main	main.c	/^int main(int argc,char *argv[])$/;"	f
+read_datas_tty	SerDrive.c	/^int read_datas_tty(int fd,char *rcv_buf,int TimeOut,int Len)$/;"	f
+send_data_tty	SerDrive.c	/^int send_data_tty(int fd,char *send_buf,int Len)$/;"	f
+set_opt	SerDrive.c	/^int set_opt(int fd ,int nSpeed,int nBits ,char nEvent ,int nStop)$/;"	f

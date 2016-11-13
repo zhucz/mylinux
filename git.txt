@@ -5,3 +5,8 @@
 //git commit -m "说明文字"
 //git push -u origin master 同步本地和远程代码
 
+
+
+//如果忘记git password 可以登陆git账户后在setting 
+//下面的Account里面直接修改
+

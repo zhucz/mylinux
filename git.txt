@@ -1,0 +1,7 @@
+//提交代码
+//git config --list 查看user.name user.email
+//git status 查看状态
+//git add .
+//git commit -m "说明文字"
+//git push -u origin master 同步本地和远程代码
+
